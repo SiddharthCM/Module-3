@@ -15,12 +15,12 @@ To write a Python program that filters out and returns all elements from a list 
 
 ## 🧾 Program
 ```
-def remove(s):
-    n = int(input()) 
-    print(s[:n] + s[n+1:])
+items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+result = [word for word in items if 'e' not in word]
+print(result)
 ```
 ## Output
-<img width="784" height="834" alt="529873870-344b684b-33af-4450-a33a-8d79d788d76d" src="https://github.com/user-attachments/assets/00429964-105d-43eb-96e2-116936cb626e" />
+<img width="694" height="820" alt="529746236-1c890714-a951-46b2-8bd5-fe601f062f46" src="https://github.com/user-attachments/assets/ac98c372-aa4e-4ec6-83f8-6d3d7cb71151" />
 
 ## Result
 Thus,the python program has been executed successfully.
